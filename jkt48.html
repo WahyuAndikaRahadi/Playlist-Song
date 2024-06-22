@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/stylee.css">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+    <title>Playlist JKT 48</title>
+</head>
+
+    <body style="background-image: url(img/bg-night2.jpeg);">
+        <div class="album-cover">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="img/honest-man.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/seventeen.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/pesawatkertas.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/mentari-senja.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/first-rabbit.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="music-player">
+          <h1>Title</h1>
+          <p>Song Name</p>
+          <a href="menu.html" class="theme-btn " style="color: rgb(235, 176, 186); text-decoration: none;"> Kembali </a>
+    
+          <audio id="song">
+            <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+          </audio>
+    
+          <input type="range" value="0" id="progress" />
+    
+          <div class="controls">
+            <button class="backward">
+              <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="play-pause-btn">
+              <i class="fa-solid fa-play" id="controlIcon"></i>
+            </button>
+            <button class="forward">
+              <i class="fa-solid fa-forward"></i>
+            </button>
+          </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="js/pluginjkt48.js"></script>
+      </body>
+
+
+</html>
